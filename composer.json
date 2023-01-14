@@ -1,0 +1,20 @@
+{
+    "name": "aidan-casey/factory",
+    "description": "A lightweight package to make testing factories easier.",
+    "authors": [
+        {
+            "name": "Aidan Casey",
+            "email": "aidan@caseyhouse.net"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AidanCasey\\Factory\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "fakerphp/faker": "^1.21"
+    }
+}
